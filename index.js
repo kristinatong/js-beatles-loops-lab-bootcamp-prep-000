@@ -7,7 +7,18 @@ function theBeatlesPlay(musicians,instruments){
 }
 
 function johnLennonFacts(facts){
+  newArr = []
   while(i < facts.length){
-    facts[i].push('!!!')
+    newArr.push(`${facts[i]}!!!`)
   }
+  return newArr
+}
+
+function iLoveTheBeatles(num){
+  array = []
+  do{
+    array.push('I love the Beatles!')
+    num++
+  } while(num < 15)
+  return array
 }
